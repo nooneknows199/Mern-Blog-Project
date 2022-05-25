@@ -1,0 +1,27 @@
+
+.home{
+    display: flex;
+    background-color: var(--bg-clr);
+}
+
+.dark-theme{
+    --bg-clr: #282929; 
+    --main-heading: #5f99be;
+    --heading: #fff;
+    --sidebar:#5f99be;
+    --category: rgb(5, 211, 5);
+    --icon:rgb(5, 211, 5);
+    --about-me: rgb(7, 159, 247);
+    --post-title: white;
+    --post-desc: #5f99be;
+    --write-post: #fff;
+}
+.light-theme{
+    --bg-clr: white;
+    --heading:#444;
+    --sidebar:#222;
+    --about-me:rgb(49, 85, 151);
+    --post-title:rgb(36, 27, 27);
+    --post-desc: #444;
+    --write-post:black;
+}

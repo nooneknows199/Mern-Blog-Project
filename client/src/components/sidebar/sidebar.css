@@ -1,0 +1,76 @@
+.sidebar {
+  flex: 3;
+  margin: 20px;
+  padding-bottom: 30px;
+  background-color: #fdfbfb;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--bg-clr);
+}
+
+.sidebarItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutMe{
+  font-size: 18px;
+  font-weight: 100;
+  color:var(--about-me);
+}
+
+.sidebarTitle {
+  margin: 10px;
+  padding: 5px;
+  width: 80%;
+  border-top: 1px solid #a7a4a4;
+  border-bottom: 1px solid #a7a4a4;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 12px;
+  color: var(--sidebar);
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+}
+
+.sidebarItem > img {
+  margin-top: 15px;
+}
+
+.sidebarItem > p {
+  padding: 30px;
+  font-family:'Times New Roman', Times, serif;
+}
+
+.sidebarList {
+  list-style: none;
+  margin-bottom: 30px;
+  
+}
+
+.sidebarListItem {
+  display: inline-block;
+  width: 50%;
+  margin-top: 15px;
+  cursor: pointer;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: var(--category);
+}
+
+.sidebarSocial {
+  margin-top: 15px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebarIcon{
+    font-size: 22px;
+    margin-left: 10px;
+    cursor: pointer;
+    color: var(--icon);
+}
